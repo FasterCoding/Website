@@ -71,10 +71,18 @@ body {
     box-shadow: 5px 5px 10px #34495e;
 }
 
-.footer{
+.footer {
     position: fixed;
-    bottom:10px;
-    margin-left: 50%;
-    margin-right: 50%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.footer-child {
+    padding: 5px 10px;
 }
